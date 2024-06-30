@@ -1,0 +1,154 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Fira+Sans+Extra+Condensed&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: aquamarine; */
+}
+
+/* Responsive style */
+/* Responsive styles */
+/* @media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 15px;
+    }
+
+    .bar {
+        background-color: #fff;
+        height: 3px;
+        width: 25px;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+
+    .change .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .change .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .change .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 1;
+    }
+
+    .menu.active a {
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+} */
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('R.jpg');
+    background-color: rgb(109, 148, 148);
+    background-size: cover;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    color: #e27979;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.title{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu{
+    padding-right: 190px;
+}
+
+
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    border-bottom: 4px solid indianred;
+	transition: 0.5s;
+ }
+
+.register a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    background: indianred;
+}
+
+.register a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform:translate(-50%, -50%) ;
+    text-align: center;
+    color: #fff;
+}
+
+.h-text span{
+    letter-spacing: 5px;
+}
+
+.h-text h1{
+    font-size: 3.5em;
+}
+
+.h-text a{
+    text-decoration: none;
+    background: indianred;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+
+.h-text a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+
